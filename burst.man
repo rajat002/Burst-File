@@ -1,0 +1,21 @@
+.\" Manpage for burst.
+.\" Contact user@example.com to correct errors or typos.
+.TH man 1 "06 May 2016" "0.0.1" "burst man page"
+.SH NAME
+burst \- burst a file into (n) lines segment.
+.SH SYNOPSIS
+burst [OPTIONS]
+.SH DESCRIPTION
+burst is a utility to create N segments of a file of specified length(number of lines).
+.SH OPTIONS
+ The burst take following options.
+ -f file                   file
+ -s segment-length         size(in line(s) count)<default is 5 lines>
+ -p pool-size              pool-size (default is 10)
+ -o output-directory       output-directory
+ -h, --help                print this help and exit
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Rajat Paliwal rajatpaliwal86@gmail.com
+.SH Version 0.0.1
